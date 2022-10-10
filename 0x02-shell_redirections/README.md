@@ -1,1 +1,1 @@
-this part concern the use of the redirections E/O
+this part of my chedule talk about the rediretories E/S
