@@ -1,1 +1,1 @@
-this directory concerne the permissions files 
+This a readme about the shell permissions

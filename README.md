@@ -1,1 +1,3 @@
-the basic command concerning bash 
+# Alx System engineering and DevOps
+
+This repository is created for System engineering and DevOps concepts
