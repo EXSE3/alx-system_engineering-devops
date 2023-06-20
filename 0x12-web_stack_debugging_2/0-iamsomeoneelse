@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Bash script that un the whoami command under the user passed as an argument
+if [ $# -eq 1 ]
+then
+	sudo -u "$1" whoami
+	exit 0
+fi
+
+sudo whoami

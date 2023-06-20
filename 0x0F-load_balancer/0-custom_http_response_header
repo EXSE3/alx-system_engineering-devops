@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Bash script that setup a nginx web server on our server, redirection, 404, header
+
+sudo apt-get -y update
+sudo apt-get -y install nginx
+
+repl_str="\tlocation \/ {\n\t\tadd_header X-Served-By $HOSTNAME;"
+sudo sed -i "s/\tlocation \/ {/$repl_str/" /etc/nginx/sites-available/default
+
+sudo service nginx restart
